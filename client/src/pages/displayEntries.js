@@ -59,7 +59,7 @@ return (
   <div>
     <h2 >All Entries</h2>
     <div className='Filter'>
-        <label htmlFor="statusFilter">Filter {" "}</label>
+        <label htmlFor="statusFilter">Filter by Status:{" "}</label>
         <select id="statusFilter" onChange={(e) => handleStatusFilter(e.target.value)}>
           <option value="all">All</option>
           <option value="Success">Success</option>
