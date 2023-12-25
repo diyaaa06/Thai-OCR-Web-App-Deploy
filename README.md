@@ -79,3 +79,4 @@ The application can be deployed to platforms like Cyclic.sh, AWS, or any other h
 Contributions and suggestions are welcome. Please feel free to open issues or submit pull requests for any improvements or features.
 
 
+
