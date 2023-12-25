@@ -1,0 +1,88 @@
+/* CSS for buttons in Analysis1 component */
+.analysis-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+
+.entry-caard {
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.entry-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.text-box{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+/* Get Data button */
+.get-data-button {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.get-data-button:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+
+/* Insert Data button */
+.insert-button {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.insert-button:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+
+/* CSS for Analysis1 component */
+
+/* Container */
+.analysis-container {
+  background-color: #f5f5f5; /* Tint color background */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for card-like appearance */
+}
+
+/* Response messages */
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+.p{
+  text-align: center;
+}

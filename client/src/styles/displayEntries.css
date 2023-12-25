@@ -1,0 +1,58 @@
+.entry-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.entry-card {
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.entry-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.entry-card p {
+  margin: 5px 0;
+}
+.Filter{
+  margin:10px;
+}
+.entry-card hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.success {
+  background-color: rgba(144, 238, 144, 0.2); /* Greenish tint */
+}
+
+.failure {
+  background-color: rgba(255, 99, 71, 0.2); /* Reddish tint */
+}
+.h2{
+  text-align: center;
+}
+
+.delete-button {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.delete-button:hover {
+  background-color: #ff5a5f; /* Lighter shade of red on hover */
+}
