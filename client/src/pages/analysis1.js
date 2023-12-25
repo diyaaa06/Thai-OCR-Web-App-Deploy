@@ -7,6 +7,7 @@ export const Analysis1 = ({ file }) => {
   const [getdatabutton,setgetdatabutton]=useState(true);
   const apiKey1 = 'pGyPys7zJM1yptg6XpiZn4Ds1n72sk15'; 
   const apiKey2 = 'Ro1SJ4DzqUIlV4LkziuQEV935bIMce14';
+  const apikey3 = '9UuDugYjKeF4Ff2uYDtbr6etlLjRP3LQ';
   const apiUrl = 'https://api.iapp.co.th/thai-national-id-card/v3.5/front';
   const [status,setStatus]=useState('success');
 
@@ -19,7 +20,7 @@ export const Analysis1 = ({ file }) => {
       const response = await axios.post(apiUrl, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
-          'apikey': apiKey2,
+          'apikey': apikey3,
         },
         params: {
           fields: 'id_number,en_name,en_lname,en_dob,en_issue,en_expire',
