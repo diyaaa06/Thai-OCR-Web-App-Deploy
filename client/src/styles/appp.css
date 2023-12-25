@@ -1,4 +1,9 @@
 /* CSS file */
+body{
+  background-image: url('../images/rm222batch2-kul-27.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+}
 .center-content {
   justify-content: center;
   height: 100vh;
