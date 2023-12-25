@@ -26,7 +26,7 @@ export const EntriesPage = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:3001/entries/${id}`);
+      await axios.delete(`/entries/${id}`);
       // Remove the deleted entry from the displayed list
       setEntries(entries.filter((entry) => entry._id !== id));
       setFilteredEntries(filteredEntries.filter((entry) => entry._id !== id));
