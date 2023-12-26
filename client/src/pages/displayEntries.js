@@ -71,7 +71,7 @@ export const EntriesPage = () => {
     } catch (err) {
       // console.log(err);
       alert("ERR");
-      window.location.reload();
+      setEditableEntry(null);
     }
   };
   const handleEdit = (id) => {
