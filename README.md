@@ -1,5 +1,11 @@
 # Thai OCR Web Application
 
+
+Deployment Link
+1. cyclic: determined-dove-capris.cyclic.app/
+2. render: https://thai-ocr-web-app.onrender.com/
+
+
 This project is a web application designed to perform Optical Character Recognition (OCR) on Thai national ID cards. The application consists of a frontend built with React (client-side) and a backend server developed using Node.js, Express, and MongoDB.
 
 ## Project Structure
