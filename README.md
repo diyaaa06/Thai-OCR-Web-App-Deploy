@@ -2,7 +2,7 @@
 
 
 Deployment Link
-1. cyclic: determined-dove-capris.cyclic.app/
+1. cyclic: https://determined-dove-capris.cyclic.app/
 2. render: https://thai-ocr-web-app.onrender.com/
 
 
