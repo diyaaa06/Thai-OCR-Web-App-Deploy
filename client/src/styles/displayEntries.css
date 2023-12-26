@@ -53,8 +53,27 @@ h2{
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
+.ll{
+  display: inline-block;
+}
 .delete-button:hover {
   background-color: #ff5a5f; /* Lighter shade of red on hover */
+}
+.edit-button {
+  background-color: #28a745; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 12px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.edit-button:hover {
+  background-color: #218838; /* Darker shade on hover */
 }

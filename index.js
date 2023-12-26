@@ -21,7 +21,6 @@ app.post('/insert', async (req, res) => {
   try {
     // Check if an entry with the same ID number already exists
     const existingEntry = await EntryModel.findOne({ id_number: entryData.id_number });
-
     if (existingEntry) {
       // Update the existing entry if found
       Object.assign(existingEntry, entryData); // Update the existing entry with new data

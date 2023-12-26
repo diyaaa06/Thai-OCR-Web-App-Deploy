@@ -31,6 +31,12 @@ const entriesSchema = new mongoose.Schema({
     default: Date.now
   }
 });
-
+// entriesSchema.pre('save', function (next) {
+//   // Check if the document is new or being updated
+//   if (this.isNew || this.isModified()) {
+//     this.timeStamp = Date.now(); // Set the timeStamp to the current date and time
+//   }
+//   next();
+// });
 const EntryModel = mongoose.model("entries", entriesSchema);
 module.exports=EntryModel;

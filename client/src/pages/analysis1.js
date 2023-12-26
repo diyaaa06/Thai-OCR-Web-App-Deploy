@@ -48,6 +48,7 @@ export const Analysis1 = ({ file }) => {
         dateOfExpiry: convertToDate(response.en_expire),
         status: 'Success',
         error_msg: response.error_message || 'No errors',
+        timeStamp:new Date().toUTCString()
       };
       insertDataIntoDB(entryData);
     } else if (response) {
@@ -91,6 +92,7 @@ export const Analysis1 = ({ file }) => {
         error_msg: response.error_message || 'No errors',
         // Add other necessary fields as per your entryModel schema
       };
+      entryData.timeStamp=new Date().toUTCString();
       insertDataIntoDB(entryData);
     }else{
       const entryData={
@@ -116,6 +118,8 @@ export const Analysis1 = ({ file }) => {
   const handleRefresh = () => {
     window.location.reload(); // Refresh the page
   };
+
+  
   return (
     
     <div className="text-box">
